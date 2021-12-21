@@ -18,33 +18,25 @@ Notice that:
 
 
 ## General Settings
-
 The following settings apply to any files uploaded on your server, independently of the storage type.
 
-- | Configuration                                         | Description                                                  |
-  | ----------------------------------------------------- | ------------------------------------------------------------ |
-  | **File Uploads Enabled**                              | Enable this parameter to allow users to upload files on your server. |
-  | **Maximum File Upload Size (in bytes)**               | Type in the maximum allowed file size for upload (in bytes). |
-  | **Accepted Media Types**                              | Enter the media types accepted for upload separated by commas. |
-  | **Blocked Media Types**                               | Enter the media types block from upload separated by commas.<br /><br />_**NOTE: **This setting overrides the Accepted Media Types._ |
-  | **Protect Uploaded Files**                            | Enable this parameter so that only authenticated users can have access to uploaded files.<br /><br />**NOTE:* **_Unauthenticated users are still able to access and download uploaded files by using the file’s URL._ |
-  | **Rotate images on upload**                           | Enable this parameter to allow the rotation of images on upload.<br/><br/>**NOTE:** _This may cause image quality loss._ |
-  | **Enable JSON Web Tokens protection to file uploads** | Enable this parameter to append a JSON Web Token (JWT) to the uploaded files.<br />You can use a JWT for allowing access to uploaded files for users without authentication. |
-  | **File Upload Json Web Token Secret**                 | Enter the JWT Secret to enable access to uploaded files without authentication. |
-  | **Storage Type**                                      | Select the appropriate option for storing the uploaded files:<ul><li>AmazonS3</li><li>File System</li><li>Google Cloud Storage</li><li>Google Vision</li><li>WebDAV<li></ul> |
-  | **File Uploads Enabled in Direct Messages**           | Enable this parameter to allow users to upload files in your server via direct messages. |
-
-
-
+| Configuration                                         | Description                                                  |
+| ----------------------------------------------------- | ------------------------------------------------------------ |
+| **File Uploads Enabled**                              | Enable this parameter to allow users to upload files on your server. |
+| **Maximum File Upload Size (in bytes)**               | Type in the maximum allowed file size for upload (in bytes). |
+| **Accepted Media Types**                              | Enter the media types accepted for upload separated by commas. |
+| **Blocked Media Types**                               | Enter the media types block from upload separated by commas.<br /><br />_**NOTE: **This setting overrides the Accepted Media Types._ |
+| **Protect Uploaded Files**                            | Enable this parameter so that only authenticated users can have access to uploaded files.<br /><br />**NOTE:* **_Unauthenticated users are still able to access and download uploaded files by using the file’s URL._ |
+| **Rotate images on upload**                           | Enable this parameter to allow the rotation of images on upload.<br/><br/>**NOTE:** _This may cause image quality loss._ |
+| **Enable JSON Web Tokens protection to file uploads** | Enable this parameter to append a JSON Web Token (JWT) to the uploaded files.<br />You can use a JWT for allowing access to uploaded files for users without authentication. |
+| **File Upload Json Web Token Secret**                 | Enter the JWT Secret to enable access to uploaded files without authentication. |
+| **Storage Type**                                      | Select the appropriate option for storing the uploaded files:<ul><li>AmazonS3</li><li>File System</li><li>Google Cloud Storage</li><li>Google Vision</li><li>WebDAV</li></ul> |
+| **File Uploads Enabled in Direct Messages**           | Enable this parameter to allow users to upload files in your server via direct messages. |
 
 ## Storage Specific Settings
-
 Use the following settings when configuring your preferred storage server.  
 
-
-
 #### Amazon S3
-
 For more details on how to set up the Amazon S3 server see the dedicated article [here](https://docs.rocket.chat/guides/administration/settings/file-upload/amazon-s3).
 
 |Configuration|Description|
@@ -59,16 +51,10 @@ For more details on how to set up the Amazon S3 server see the dedicated article
 | **Proxy Avatars**                     | Enable this parameter to use proxy avatar file transmissions through your server instead of direct access to the asset's URL. |
 | **Proxy Uploads**                     | Enable this parameter to use proxy upload file transmissions through your server instead of direct access to the asset's URL |
 
-
-
 #### File System
-
 Populate the field **System Path** with the local path the uploaded files store location.
 
-
-
 #### Google Cloud Storage
-
 For more details on how to set up the Google Cloud Storage server see the dedicated article [here](https://docs.rocket.chat/guides/administration/settings/file-upload/google-cloud-storage).
 
 |Configuration|Description|
@@ -76,10 +62,7 @@ For more details on how to set up the Google Cloud Storage server see the dedica
 | **Proxy Avatars** | Enable this parameter to use proxy avatar file transmissions through your server instead of direct access to the asset's URL. |
 | **Proxy Uploads** | Enable this parameter to use proxy upload file transmissions through your server instead of direct access to the asset's URL |
 
-
-
 #### Google Vision
-
 >  Please notice Google Vision is a Paid API from Google. The use of this API it on Rocket.Chat may generate fees, as described on [Google Vision](https://cloud.google.com/vision/) page.
 
 |Configuration|Description|
@@ -99,7 +82,6 @@ For more details on how to set up the Google Cloud Storage server see the dedica
 | **Search Similar  Images**     | This will enable  users to search for similar images directly from Rocket. Chat. |
 
 #### WebDAV
-
 |Configuration|Description|
 | ------------------------- | ------------------------------------------------------------ |
 | **Upload Folder Path**    | WebDAV folder path to  which the files should be uploaded.   |
