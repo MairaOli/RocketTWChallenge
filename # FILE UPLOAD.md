@@ -3,7 +3,7 @@
 # FILE UPLOAD
 
 To access this menu click the user icon on the top left and navigate to **Administration > File Upload**.
-![](C:\Users\maira.oliveira\OneDrive - ACRELEC\Documentos\Pessoais\CVs\Rocket1.jpg)
+![](Rocket1.jpg)
 
 Use the **File Upload** menu to set the configurations for the upload of files on **Rocket.Chat**.
 
