@@ -14,7 +14,7 @@ Notice that:
 - Click **Reset Section to Default** to reset all the configurations on a section at once, or
 
 - Click the **Reset** icon to reset a specific field or parameter
-  ![](https://github.com/MairaOli/RocketTWChallenge/issues/2#issue-1085305943)
+  ![](Rocket2.jpg)
 
 
 ## General Settings
