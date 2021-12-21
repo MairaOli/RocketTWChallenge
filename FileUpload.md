@@ -1,5 +1,6 @@
-[TOC]
-
+**Contents:** [General Settings](#general-settings) | [Storage Specific Settings](#storage-specific-settings)
+	
+	
 # FILE UPLOAD
 
 To access this menu click the user icon on the top left and navigate to **Administration > File Upload**.
