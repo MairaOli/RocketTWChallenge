@@ -31,7 +31,7 @@ The following settings apply to any files uploaded on your server, independently
 | **Rotate images on upload**                           | Enable this parameter to allow the rotation of images on upload.<br/><br/>**NOTE:** _This may cause image quality loss._ |
 | **Enable JSON Web Tokens protection to file uploads** | Enable this parameter to append a JSON Web Token (JWT) to the uploaded files.<br />You can use a JWT for allowing access to uploaded files for users without authentication. |
 | **File Upload Json Web Token Secret**                 | Enter the JWT Secret to enable access to uploaded files without authentication. |
-| **Storage Type**                                      | Select the appropriate option for storing the uploaded files:<ul><li>AmazonS3</li><li>File System</li><li>Google Cloud Storage</li><li>Google Vision</li><li>WebDAV</li></ul> |
+| **Storage Type**                                      | Select the appropriate option for storing the uploaded files:<ul><li>[AmazonS3](#amazon-s3)</li><li>[File System](#file-system)</li><li>[Google Cloud Storage](#google-cloud-storage)</li><li>[Google Vision](#google-vision)</li><li>[WebDAV](#webdav)</li></ul> |
 | **File Uploads Enabled in Direct Messages**           | Enable this parameter to allow users to upload files in your server via direct messages. |
 
 ## Storage Specific Settings
