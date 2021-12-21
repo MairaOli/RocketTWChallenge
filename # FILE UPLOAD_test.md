@@ -11,8 +11,7 @@ Notice that:
 
 - Click the **Reset** icon to reset a specific field or parameter
 
- ![test](file:///C:/Users/MAIRA~1.OLI/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
-
+![Rocket1](https://user-images.githubusercontent.com/64904264/146848317-a46f3c8c-b9a9-44b0-81ae-942a067c2b2b.jpg)
 
 
 ## General Settings
